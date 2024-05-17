@@ -4,8 +4,6 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 
 
-
-
 function Footer () {
     return (
         <>
@@ -15,7 +13,7 @@ function Footer () {
                     <div className="content-center	">
                         <span className="text-2xl"> Contatos </span>
                         <div className="border-t border-white w-48"></div>
-                        <samp>(11) 2661-8500</samp>
+                        <samp>(11) 2661-8500 | </samp>
                         <samp>AV. DR. ENÉAS CARVALHO DE AGUIAR, 647, SÃO PAULO - SP</samp>
                     </div>
                     <div className="content-center">
