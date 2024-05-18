@@ -11,12 +11,14 @@ function Home() {
         <NavBar />
 
         
-        <h1 className="text-8xl p-5 m-0 flex justify-center font-sans"> Nosso Hospital</h1>
+        <h1 className="text-8xl p-5 m-0 flex justify-center font-sans pt-10"> Nosso Hospital</h1>
         <div className="border-t-4 border-blue-400 w-28 mx-auto"></div>
         
         <Carrossel_Home />
         
-        <div className="p-10"></div>
+        <div>
+            <h1>Sobre Nos</h1>
+        </div>
         <Footer />
         
         </>

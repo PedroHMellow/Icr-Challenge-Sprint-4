@@ -14,7 +14,7 @@ function Header () {
                 </Link>
                 <div className="flex items-center justify-between">
                     <div className="flex items-center justify-between m-4">
-                        <div className="text-3xl text-teal-500 ">
+                        <div className="text-3xl  text-teal-500">
                             <FaPhone />
                         </div>
                         <h1 className="m-4">
