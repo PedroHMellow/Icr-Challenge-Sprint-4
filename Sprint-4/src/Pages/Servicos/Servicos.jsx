@@ -10,6 +10,8 @@ import card5 from "../../img/card-5.16ea5895.png"
 import card6 from "../../img/card-6.16ea5895.png"
 import card7 from "../../img/card7.png"
 import card8 from "../../img/card-8.ac1a9a37.png"
+import { Link } from "react-router-dom";
+
 
 function Servicos () {
     return (
@@ -28,19 +30,26 @@ function Servicos () {
                 </h3>
             </div>
             
-            <section className="bg-gray-200 px-36 grid grid-cols-3 grid-rows-3 gap-10 p-3 ">
+            <section className="bg-gray-200 px-36 grid grid-cols-3 grid-rows-3 gap-10 p-3">
                
-                <div className="bg-white cursor-pointer scale-1 hover:scale-110 ">
-                    <img src={card1} alt="" />
-                    <h3 className="text-xl p-3">
-                        Exames
-                    </h3>
-                    <p className="p-3">
-                        Resultados de Exames Laboratoriais e de Imagem
-                    </p>
-                </div>
+               <Link to="/Exames">  
+                    <div className="bg-white cursor-pointer scale-1 hover:scale-110 border rounded-lg
+                    border-black shadow-md	
+                    ">
+                        <img src={card1} alt="" />
+                        <h3 className="text-xl p-3">
+                            Exames
+                        </h3>
+                        <p className="p-3">
+                            Resultados de Exames Laboratoriais e de Imagem
+                        </p>
+                    </div>
+                </Link>
 
-                <div className="bg-white cursor-pointer scale-1 hover:scale-110">
+                <Link to="/Preparo_Exames">  
+                <div className="bg-white cursor-pointer scale-1 hover:scale-110 border rounded-lg
+                    border-black shadow-md	
+                    ">
                     <img src={card7} alt="" />
                     <h3 className="p-3 text-xl">
                         Preparo Exames 
@@ -49,8 +58,11 @@ function Servicos () {
                         Vai passar por algum exame de Imagem? Verifique o preparo.
                     </p>
                 </div>
+                </Link>
 
-                <div className="bg-white cursor-pointer scale-1 hover:scale-110">
+                <div className="bg-white cursor-pointer scale-1 hover:scale-110 border rounded-lg
+                    border-black shadow-md	
+                    ">
                     <img src={card2} alt="" />
                     <h3 className="text-xl p-3">
                         Medicamentos
@@ -60,7 +72,9 @@ function Servicos () {
                     </p>
                 </div>
 
-                <div className="bg-white cursor-pointer scale-1 hover:scale-110">
+                <div className="bg-white cursor-pointer scale-1 hover:scale-110 border rounded-lg
+                    border-black shadow-md	
+                    ">
                     <img src={card3} alt="" />
                     <h3 className="text-xl p-3">
                         Agenda
@@ -70,7 +84,9 @@ function Servicos () {
                     </p>
                 </div>
 
-                <div className="bg-white cursor-pointer scale-1 hover:scale-110">
+                <div className="bg-white cursor-pointer scale-1 hover:scale-110 border rounded-lg
+                    border-black shadow-md	
+                    ">
                    <img src={card4} alt="" />
                     <h3 className="text-xl p-3">
                         Receitas
@@ -80,7 +96,9 @@ function Servicos () {
                     </p>
                 </div>
                 
-                <div className="bg-white cursor-pointer scale-1 hover:scale-110">
+                <div className="bg-white cursor-pointer scale-1 hover:scale-110 border rounded-lg
+                    border-black shadow-md	
+                    ">
                     <img src={card5} alt="" />
                     <h3 className="text-xl p-3">
                         Guias de Exame e Documentos
@@ -90,7 +108,9 @@ function Servicos () {
                     </p>
                 </div>
 
-                <div className="bg-white cursor-pointer scale-1 hover:scale-110">
+                <div className="bg-white cursor-pointer scale-1 hover:scale-110 border rounded-lg
+                    border-black shadow-md	
+                    ">
                     <img src={card6} alt="" />
                     <h3 className="text-xl p-3">
                         Laudos
@@ -100,7 +120,9 @@ function Servicos () {
                     </p>
                 </div>
 
-                <div className="bg-white cursor-pointer scale-1 hover:scale-110">
+                <div className="bg-white cursor-pointer scale-1 hover:scale-110 border rounded-lg
+                    border-black shadow-md	
+                    ">
                     <img src={card8} alt="" />
                     <h3 className="p-3 text-xl">
                         Preparo Exames 
@@ -110,7 +132,9 @@ function Servicos () {
                     </p>
                 </div>
 
-                <div className="bg-white cursor-pointer scale-1 hover:scale-110">
+                <div className="bg-white cursor-pointer scale-1 hover:scale-110 border rounded-lg
+                    border-black shadow-md	
+                    ">
                     <img src={card8} alt="" />
                     <h3 className="p-3 text-xl">
                         Dados Pessoais
