@@ -4,6 +4,10 @@ import Header from "../../Components/Header/Header"
 import NavBar from "../../Components/NavBar/NavBar"
 
 import Icr_img from "../../img/show_image.jpeg"
+import { FaCommentMedical } from "react-icons/fa6";
+import { FaLaptopMedical } from "react-icons/fa6";
+import { FaSuitcaseMedical } from "react-icons/fa6";
+
 
 
 function Home() {
@@ -36,13 +40,41 @@ function Home() {
 
         </div>
 
-        <div className="px-36 grid grid-cols-3 grid-rows-3 gap-10 p-3"> 
-                <div className="border">
-                    <h1> Atendimento Humanizado </h1>
-                    <p>
+        <div className="px-36 grid grid-cols-3 gap-10 pt-10"> 
 
+                <div>
+                    <div className="text-indigo-950 text-7xl flex justify-center ">
+                         <FaCommentMedical /> 
+                    </div>
+                    <h1 className="text-indigo-950 text-xl text-center pt-3"> Atendimento Humanizado </h1>
+                    <p className="text-justify pt-10">
+                        No Hospital ICR, o atendimento humanizado é uma prioridade, onde cada paciente é tratado com empatia, respeito e dedicação, garantindo um cuidado integral e acolhedor em todos os momentos de sua jornada de saúde.
                     </p>
                 </div>
+
+                <div>
+                    <div className="text-indigo-950 text-7xl flex justify-center ">
+                        <FaSuitcaseMedical />
+                    </div>
+                    <h1 className="text-indigo-950 text-xl text-center pt-3"> Especializado em atendimento Infantil </h1>
+                    <p className="text-justify pt-4">
+                        No Hospital ICR, somos especializados em atendimento infantil, proporcionando um cuidado carinhoso e altamente qualificado para garantir a saúde e o bem-estar das crianças.
+                    </p>
+                </div>
+
+                <div>
+                    <div className="text-indigo-950 text-7xl flex justify-center ">
+                        <FaLaptopMedical />
+                    </div>
+                    <h1 className="text-indigo-950 text-xl text-center pt-3"> Inovação </h1>
+                    <p className="text-justify pt-10">
+                        No Hospital ICR, a inovação é um pilar essencial, impulsionando avanços  e práticas médicas modernas para oferecer tratamentos de ponta e melhorar continuamente a qualidade do atendimento aos pacientes.
+                    </p>
+                </div>
+        </div>
+
+        <div className=" p-5">
+
         </div>
 
 
