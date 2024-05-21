@@ -57,8 +57,6 @@ function Preparo_Exames () {
                 </p>
             </div>
 
-
-
         </section>
 
         <Footer />

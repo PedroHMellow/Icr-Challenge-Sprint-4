@@ -32,7 +32,7 @@ function Carrossel_Home () {
     return (
         <>
         <div className="max-w-[1638px] h-[700px] m-auto py-5  relative group">
-            <div style={{backgroundImage: `url(${slides[currentIndex].url})`}} className="w-full h-full rounded-r-2xl bg-center bg-cover duration-500">
+            <div style={{backgroundImage: `url(${slides[currentIndex].url})`}} className="w-full h-full rounded bg-center bg-cover duration-500">
             {/* left Arrow */}
                 <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
                     <BsChevronCompactLeft onClick={prevSlide} size={30}/>
