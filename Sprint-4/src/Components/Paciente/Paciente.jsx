@@ -18,19 +18,25 @@ function Paciente () {
             <div className="flex flex-col w-3/4 p-5">
 
                 <div className="pt-12 w-3/4	">
-                    <h2 className="text-4xl p-3 "> Informações Paciente: </h2>
-                    <input type="text" className="w-full h-32" />
+                    <h2 className="text-4xl p-3  bg-slate-400 rounded-lg border-2	border-indigo-950 "> 
+                        Informações Paciente:
+                     </h2>
+                    <input type="text" className="w-full h-32 rounded-lg  border-indigo-950" />
                 </div>
 
                 <div className="pt-12 w-3/4	">
-                    <h2 className="text-4xl p-3 "> Diagnósticos: </h2>
+                    <h2 className="text-4xl p-3  bg-slate-400 rounded-lg border-2	border-indigo-950 "> 
+                        Diagnósticos: 
+                    </h2>
                     <input type="text" className="w-full h-32" />
                 </div>
                 
             </div>                    
 
             <div className="flex flex-col pt-8 m-5 w-full">
-                <h2 className="text-4xl flex justify-center p-3"> Histórico Médico: </h2>
+                <h2 className="text-4xl flex justify-center  bg-slate-400	rounded-lg border-2	border-indigo-950"> 
+                    Histórico Médico: 
+                </h2>
                 <input type="text" className="w-full h-32" />
             </div>
 

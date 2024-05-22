@@ -11,7 +11,8 @@ import { MdContactPhone } from "react-icons/md";
 function Footer () {
     return (
         <>
-            <div className="bg-indigo-950 w-full ">
+            <section className="bg-indigo-950 w-full ">
+
                 <div className="flex justify-around text-white font-sans">
                     <img src={ono} alt="Ono" />
                     <div className="content-center	">
@@ -36,7 +37,9 @@ function Footer () {
                         </div>
                     </div>
                 </div>
-            </div>
+                
+            </section>
+
             <div className="bg-blue-400 flex justify-center font-sans">
                 ® TODOS OS DIREITOS RESERVADOS. INSTITUTO DA CRIANÇA E DO ADOLESCENTE
             </div>

@@ -40,8 +40,8 @@ function Home() {
 
         </div>
 
-        <div className="px-36 grid grid-cols-3 gap-10 pt-10"> 
-
+        <div className=" xl:px-36 grid grid-cols-3 gap-10 pt-10"> 
+        
                 <div>
                     <div className="text-indigo-950 text-7xl flex justify-center ">
                          <FaCommentMedical /> 

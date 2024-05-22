@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 function Header () {
     return (
         <>
-            <header className="flex justify-between items-center p-5">
+            <header className=" md:flex justify-between items-center p-5">
                 <Link to="/">
-                    <div>
+                    <div className="flex justify-center" >
                         <img src={Logo} alt="Icr-Logo" />
                     </div>
                 </Link>
-                <div className="flex items-center justify-between">
+                <div className="hidden md:flex items-center justify-between">
                     <div className="flex items-center justify-between m-4">
                         <div className="text-3xl  text-teal-500">
                             <FaPhone />
