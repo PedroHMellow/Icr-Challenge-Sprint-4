@@ -26,7 +26,9 @@ function Portal () {
             <section className="bg-[url('./src/img/Bg_Infantil_3.jpg')]">
                 
                 <div className="p-5"> 
-                    <p className="flex justify-center text-2xl text-indigo-800"> Acompanhe em que passo você está da sua jornada com a nossa barra de progressão.  </p>
+                    <p className="flex justify-center text-center text-indigo-800 text-xl lg:text-2xl"> 
+                    Acompanhe em que passo você está da sua jornada com a nossa barra de progressão. 
+                    </p>
                     <div className="p-10"> <Stepper /> </div>
 
                 </div>

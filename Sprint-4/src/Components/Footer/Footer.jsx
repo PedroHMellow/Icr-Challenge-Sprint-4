@@ -13,28 +13,38 @@ function Footer () {
         <>
             <section className="bg-indigo-950 w-full ">
 
-                <div className="flex justify-around text-white font-sans">
-                    <img src={ono} alt="Ono" />
+                <div className="flex justify-around items-center text-white font-sans">
+                    <img src={ono} alt="Ono" className="hidden lg:flex max-w-28"/>
+
                     <div className="content-center	">
                         <div className="flex items-center">
-                            <div className="text-2xl"> <MdContactPhone /></div>
-                            <span className="text-2xl pl-3"> Contatos </span>
+                            <div className="text-2xl p-3"> <MdContactPhone /></div>
+                            <span className="text-2xl "> Contatos </span>
                         </div>
+
                         <div className="border-t border-white w-48"></div>
-                        <samp> (11) 2661-8500 | </samp>
-                        <samp>AV. DR. ENÉAS CARVALHO DE AGUIAR, 647, SÃO PAULO - SP</samp>
+
+                    <samp className="text-base	md:text-sm"> (11) 2661-8500 | </samp>
+                    <samp className="text-base md:text-sm">
+                        AV. DR. ENÉAS CARVALHO DE AGUIAR, 647, SÃO PAULO - SP
+                    </samp>
                     </div>
-                    <div className="content-center">
-                        <div className="flex items-center">
-                            <div className="text-2xl"> <IoMdContact /> </div>
-                            <span className="text-2xl pl-3"> Redes </span>
-                        </div>
-                        <div className="border-t border-white w-48"></div>
-                        <div className="text-3xl flex gap-px">
-                            <FaSquareYoutube />
-                            <FaFacebookSquare />
-                            <FaInstagramSquare />
-                        </div>
+
+                        <div className="content-center">
+
+                            <div className="flex items-center">
+                                <div className="text-2xl p-3"> <IoMdContact /> </div>
+                                <span className="text-2xl"> Redes </span>
+                            </div>
+
+                            <div className="border-t border-white w-48"></div>
+
+                            <div className="text-xl flex gap-px md:text-3xl">
+                                <FaSquareYoutube />
+                                <FaFacebookSquare />
+                                <FaInstagramSquare />
+                            </div>
+
                     </div>
                 </div>
                 

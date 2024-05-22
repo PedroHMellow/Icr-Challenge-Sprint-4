@@ -9,7 +9,7 @@ function Preparo_Exames() {
       <NavBar />
 
       <div>
-        <h1 className="text-5xl p-5 m-0 flex justify-center font-sans">
+        <h1 className="p-5 m-0 flex justify-center font-sans text-center text-4xl lg:text-5xl xl:text-7xl">
           {" "}
           Como Se Preparar para um Exame Médico{" "}
         </h1>

@@ -17,79 +17,79 @@ function Exames () {
         <NavBar />
 
         <div>
-            <h1 className="text-8xl p-5 m-0 flex justify-center font-sans"> Exames </h1>
+            <h1 className="text-4xl  p-5 m-0 flex justify-center font-sans  md:text-5xl xl:text-8xl"> Exames </h1>
             <div className="border-t-4 border-blue-400 w-28 mx-auto"></div>
         </div>
 
-        <section className="bg-gray-200 px-36 grid grid-cols-2 grid-rows-2 gap-10 p-3 ">
+        <section className="bg-gray-200 px-36 grid grid-flow-row grid-cols-1 grid-rows-9 md:grid-cols-3 md:grid-rows-3 gap-10 p-3 ">
 
-            <div className="bg-white cursor-pointer scale-1 hover:scale-110 border-3 rounded-lg border-black shadow-md">
+            <div className="bg-white cursor-pointer scale-1 hover:scale-110 border-3 rounded-lg border-black shadow-md min-w-72 max-w-72 max-h-60">
                 
                 <img src={card1} alt="" />
                 <h3 className="p-3 text-xl">
                     Exame de Sangue
                 </h3>
-                <p className="p-3 ">
+                <p className="p-3 max-w-72 max-h-60">
                     O exame de sangue inclui diversos testes para medir componentes químicos no sangue, como glicose, eletrólitos, enzimas, hormônios e proteínas. Usado para avaliar a função de órgãos, diagnosticar doenças metabólicas, endócrinas e monitorar tratamentos.
                 </p>
 
             </div>
 
-            <div className="bg-white cursor-pointer scale-1 hover:scale-110 border-3 rounded-lg border-black shadow-md">
+            <div className="bg-white cursor-pointer scale-1 hover:scale-110 border-3 rounded-lg border-black shadow-md max-w-72 max-h-60">
 
                 <img src={card5} alt="" />
                 <h3 className="p-3 text-xl">
                     Raio-X
                 </h3>
-                <p className="p-3 ">
+                <p className="p-3 max-w-72 max-h-60 ">
                     Utiliza radiação para criar imagens das estruturas internas do corpo, como ossos, órgãos e tecidos. Comumente usado para diagnosticar fraturas ósseas, infecções, tumores, problemas articulares, doenças pulmonares (como pneumonia) e para guiar procedimentos médicos. O Raio-X é uma ferramenta fundamental na prática clínica devido à sua capacidade de fornecer imagens detalhadas rapidamente.
                 </p>
 
             </div>
 
-            <div className="bg-white cursor-pointer scale-1 hover:scale-110 border-3 rounded-lg border-black shadow-md">
+            <div className="bg-white cursor-pointer scale-1 hover:scale-110 border-3 rounded-lg border-black shadow-md max-w-72 max-h-60">
 
                 <img src={card2} alt="" />
                 <h3 className="p-3 text-xl">
                     Espirometria
                 </h3>
-                <p className="p-3 ">
+                <p className="p-3 max-w-72 max-h-60">
                     Espirometria avalia a função pulmonar medindo o volume e a velocidade do ar que a pessoa consegue expirar. Utilizado no diagnóstico de doenças respiratórias como asma, DPOC (Doença Pulmonar Obstrutiva Crônica) e outras condições que afetam a respiração.
                 </p>
 
             </div>
 
-            <div className="bg-white cursor-pointer scale-1 hover:scale-110 border-3 rounded-lg border-black shadow-md">
+            <div className="bg-white cursor-pointer scale-1 hover:scale-110 border-3 rounded-lg border-black shadow-md max-w-72 max-h-60">
 
                 <img src={card3} alt="" />
                 <h3 className="p-3 text-xl">
                     Pletismografia
                 </h3>
-                <p className="p-3 ">
+                <p className="p-3 max-w-72 max-h-60">
                     Pletismografia Mede o volume pulmonar total e a capacidade residual funcional dos pulmões. Útil para diagnosticar e avaliar a gravidade de doenças pulmonares como enfisema, fibrose pulmonar e outras condições que afetam a capacidade pulmonar.
                 </p>
 
             </div>
 
-            <div className="bg-white cursor-pointer scale-1 hover:scale-110 border-3 rounded-lg border-black shadow-md">
+            <div className="bg-white cursor-pointer scale-1 hover:scale-110 border-3 rounded-lg border-black shadow-md max-w-72 max-h-60">
 
                 <img src={card4} alt="" />
                 <h3 className="p-3 text-xl">
                     Titulação de Oxigenioterapia Domiciliar
                 </h3>
-                <p className="p-3 ">
+                <p className="p-3 max-w-72 max-h-60">
                     Oxigenioterapia Determina a quantidade adequada de oxigênio suplementar necessário para um paciente em tratamento domiciliar. Fundamental para pacientes com insuficiência respiratória crônica, garantindo que recebam a quantidade correta de oxigênio para manter níveis adequados de saturação no sangue.
                 </p>
 
             </div>
 
-            <div className="bg-white cursor-pointer scale-1 hover:scale-110 border-3 rounded-lg border-black shadow-md">
+            <div className="bg-white cursor-pointer scale-1 hover:scale-110 border-3 rounded-lg border-black shadow-md max-w-72 max-h-60">
 
                 <img src={card6} alt="" />
                 <h3 className="p-3 text-xl">
                     Ressonância Magnética (RM)
                 </h3>
-                <p className="p-3 ">
+                <p className="p-3 max-w-72 max-h-60">
                     Utiliza campos magnéticos e ondas de rádio para produzir imagens detalhadas dos órgãos e tecidos internos. Ideal para avaliar tecidos moles, como cérebro, músculos, ligamentos e órgãos internos, sendo útil no diagnóstico de tumores, lesões esportivas, doenças do sistema nervoso central e outras condições.
                 </p>
 

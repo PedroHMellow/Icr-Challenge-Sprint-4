@@ -14,12 +14,14 @@ function Header () {
                 </Link>
                 <div className="hidden md:flex items-center justify-between">
                     <div className="flex items-center justify-between m-4">
-                        <div className="text-3xl  text-teal-500">
-                            <FaPhone />
+                        <div className="sm:hidden xl:flex items-center">
+                            <div className="text-3xl text-teal-500">
+                                <FaPhone />
+                            </div>
+                            <h1 className="m-4">
+                                (11) 2661-8500
+                            </h1>   
                         </div>
-                        <h1 className="m-4">
-                            (11) 2661-8500
-                        </h1>
                     </div>
                     <div className="border-l border-gray-400 h-16 flex items-center justify-between">
                         <div className="text-3xl text-teal-500 m-4 ">
