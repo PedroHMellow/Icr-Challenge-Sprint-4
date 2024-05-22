@@ -79,6 +79,8 @@ function Home() {
 
 
         </section>
+
+        
         <Footer />
         
         </>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./stepper.css";
 import { TiTick } from "react-icons/ti";
 const Stepper = () => {
-  const steps = ["Agendamemnto de Consuta", "Consuta", "Exames", "Tratamento"];
+  const steps = ["Agendamento", "Consuta", "Exames", "Tratamento"];
   const [currentStep, setCurrentStep] = useState(1);
   const [complete, setComplete] = useState(false);
   return (

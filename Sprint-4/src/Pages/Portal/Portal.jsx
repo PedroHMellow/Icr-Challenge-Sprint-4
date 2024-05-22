@@ -12,9 +12,9 @@ function Portal () {
             <Header />
             <NavBar />
 
-            <section className="bg-gray-200">
+            <section className="bg-[url('./src/img/Bg_Infantil_4.jpg')]">
 
-                <div className="text-8xl p-10 text-center">Page Portal do Paciente</div>
+                <div className="text-8xl p-10 text-center ">Page Portal do Paciente</div>
                 
                 <div>
 
@@ -22,15 +22,12 @@ function Portal () {
 
                 </div>
 
-                <div className="p-5 pt-20"> 
-                        
-                    <Stepper />
-
-                </div>
-
-                <div className="text-8xl p-10"> 
-                        
-                    Calendario  
+            </section>
+            <section className="bg-[url('./src/img/Bg_Infantil_3.jpg')]">
+                
+                <div className="p-5"> 
+                    <p className="flex justify-center text-2xl text-indigo-800"> Acompanhe em que passo você está da sua jornada com a nossa barra de progressão.  </p>
+                    <div className="p-10"> <Stepper /> </div>
 
                 </div>
 
