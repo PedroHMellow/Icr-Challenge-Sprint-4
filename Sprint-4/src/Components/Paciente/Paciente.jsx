@@ -1,6 +1,7 @@
 import Perfil from "../../img/Perfil_profile (1).png"
 import { FaCamera } from "react-icons/fa";
-import Calendario from "../Calendario/Calendario";
+import FullCalendar from "../Calendario/Calendario";
+import dayGridPlugin from '@fullcalendar/daygrid' 
 
 function Paciente () {
     return (
@@ -44,7 +45,17 @@ function Paciente () {
 
 
         </section>
-        <Calendario />
+        <div className="w-3/5">
+        <FullCalendar
+            plugins={[ dayGridPlugin ]}
+            initialView="dayGridMonth"
+            weekends={false}
+            events={[
+            { title: 'event 1', date: '2024-05-23' },
+            { title: 'event 2', date: '2024-05-24' }
+            ]}
+        />
+        </div>
 
         </>
     )

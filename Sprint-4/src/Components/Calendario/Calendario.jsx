@@ -1,27 +1,25 @@
-function Calendario() {
-    document.addEventListener('DOMContentLoaded', function() {
-        var calendarEl = document.getElementById('calendar');
+import FullCalendar from '@fullcalendar/react'
+import dayGridPlugin from '@fullcalendar/daygrid' // a plugin!
+import interactionPlugin from "@fullcalendar/interaction" // needed for dayClick
+import timeGridPlugin from "@fullcalendar/timegrid"
+import allLocales from '@fullcalendar/core/locales-all'; 
 
-        var calendar = new FullCalendar.Calendar(calendarEl, {
-            initialView: 'dayGridMonth',
-            events: [
-                {
-                    title: 'Event 1',
-                    start: '2024-05-01'
-                },
-                {
-                    title: 'Event 2',
-                    start: '2024-05-05',
-                    end: '2024-05-07'
-                }
-            ]
-        });
+export default function Calendar() {
+  const handleDateClick = (arg) => {
+    alert(arg.dateStr)
+  }
 
-        calendar.render();
-    });
-    return ( 
-        <div id='calendar'></div>
-     );
+  return (
+    <FullCalendar
+      plugins={[ dayGridPlugin, timeGridPlugin, interactionPlugin ]}
+      dateClick={handleDateClick}
+      locales={allLocales}
+      locale='pt-br'
+      headerToolbar = {{
+        start: "today prev,next",
+        center: "title",
+        end: "dayGridMonth, timeGridWeek, timeGridDay"
+      }}
+    />
+  )
 }
-
-export default Calendario;
