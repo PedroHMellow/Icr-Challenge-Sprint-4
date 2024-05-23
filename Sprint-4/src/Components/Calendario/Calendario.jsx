@@ -20,6 +20,10 @@ export default function Calendar() {
         center: "title",
         end: "dayGridMonth, timeGridWeek, timeGridDay"
       }}
+      events={[
+        { title: 'retirada de exame', start: '2024-05-23T06:30:00-03:00', end: '2024-05-29T18:00:00-03:00' },
+        { title: 'Exame de Sangue', date: '2024-05-18' }
+        ]}
     />
   )
 }
