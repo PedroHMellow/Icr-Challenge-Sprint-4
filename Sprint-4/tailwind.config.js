@@ -9,7 +9,7 @@ export default {
       colors: {
         'footer_p1': '#1E1B54',
         'footer_p2': '#80B2AD',
-        'verde_icr': '#14b8a6'
+        'verde_icr': '#14b8a6',
       },
       backgroundImage: {
         'homebg': "url('./src/img/show_image.jpeg')",

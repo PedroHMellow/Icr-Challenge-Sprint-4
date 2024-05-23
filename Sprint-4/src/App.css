@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-#calendar {
-  max-width: 900px;
-  margin: 0 auto;
+.fc-day-today {
+  background-color: #1e1b54b3 !important; /* Cor de fundo amarelo claro */
+  color: #fff !important; /* Texto preto */
 }

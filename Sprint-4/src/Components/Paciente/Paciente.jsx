@@ -45,16 +45,18 @@ function Paciente () {
 
 
         </section>
-        <div className="w-3/5">
-        <FullCalendar
-            plugins={[ dayGridPlugin ]}
-            initialView="dayGridMonth"
-            weekends={false}
-            events={[
-            { title: 'event 1', date: '2024-05-23' },
-            { title: 'event 2', date: '2024-05-24' }
-            ]}
-        />
+        <div className="h-fit cont p-8  ">
+            <div className="w-8/12 p-3 bg-verde_icr bg-opacity-80 border-4 rounded-md">
+            <FullCalendar
+                plugins={[ dayGridPlugin ]}
+                initialView="dayGridMonth"
+                weekends={false}
+                events={[
+                { title: 'event 1', date: '2024-05-23' },
+                { title: 'event 2', date: '2024-05-24' }
+                ]}
+            />
+            </div>
         </div>
 
         </>
