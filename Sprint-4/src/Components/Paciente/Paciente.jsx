@@ -1,7 +1,6 @@
 import Perfil from "../../img/Perfil_profile (1).png"
 import { FaCamera } from "react-icons/fa";
 import FullCalendar from "../Calendario/Calendario";
-
 function Paciente () {
     return (
         <>
@@ -44,9 +43,9 @@ function Paciente () {
 
 
         </section>
-        <div className="h-fit cont p-8  ">
-            <div className="w-9/12 p-3 bg-verde_icr bg-opacity-80 border-4 rounded-md">
-            <FullCalendar/>
+        <div className="p-8  ">
+            <div className="w-5/12 p-3 bg-verde_icr bg-opacity-80 border-4 rounded-md">
+            <FullCalendar className='calendario'/>
             </div>
         </div>
 
