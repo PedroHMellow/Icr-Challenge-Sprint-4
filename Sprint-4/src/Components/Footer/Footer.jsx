@@ -13,13 +13,13 @@ function Footer () {
         <>
             <section className="bg-indigo-950 w-full ">
 
-                <div className="flex justify-around items-center text-white font-sans">
+                <div className="flex flex-col justify-around md:flex-row  items-center text-white font-sans">
                     <img src={ono} alt="Ono" className="hidden lg:flex max-w-28"/>
 
-                    <div className="content-center	">
+                    <div className="content-center">
                         <div className="flex items-center">
                             <div className="text-2xl p-3"> <MdContactPhone /></div>
-                            <span className="text-2xl "> Contatos </span>
+                            <span className="text-2xl flex justify-center"> Contatos </span>
                         </div>
 
                         <div className="border-t border-white w-48"></div>

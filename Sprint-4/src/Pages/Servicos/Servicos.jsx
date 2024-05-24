@@ -30,7 +30,8 @@ function Servicos () {
                 </h3>
             </div>
             
-            <section className="bg-gray-200 px-36 grid grid-cols-3 grid-rows-3 gap-10 p-3">
+            <section className="bg-gray-200 px-36 grid grid-cols-1 grid-rows-9 
+            md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-3 gap-10 p-3">
                
                <Link to="/Exames">  
                     <div className="bg-white cursor-pointer scale-1 hover:scale-110 border rounded-lg
