@@ -14,7 +14,7 @@ function Portal () {
             <Header />
             <NavBar />
 
-            <section className="bg-[url('./src/img/Bg_Infantil_4.jpg')]">
+            <section style={{backgroundImage: "url('Bg_Infantil_1.jpg')"}}>
 
                 <div className=" text-4xl md:text-6xl lg:text-8xl p-10 text-center ">Page Portal do Paciente</div>
                 
