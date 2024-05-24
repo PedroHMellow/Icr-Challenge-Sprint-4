@@ -45,7 +45,7 @@ function Paciente () {
         </section>
 
         <div className="p-8  ">
-            <div className="w-5/12 p-3 bg-verde_icr bg-opacity-80 border-4 rounded-md">
+            <div className="w-5/12 p-3 bg-verde_icr bg-opacity-80 border-4 rounded-md min-w-full min-h-full">
             <FullCalendar className='calendario'/>
             </div>
         </div>
