@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+
+      colors: {
+        'footer_p1': '#1E1B54',
+        'footer_p2': '#80B2AD',
+        'verde_icr': '#14b8a6',
+      },
+
       backgroundImage: {
         'homebg': "url('./src/img/show_image.jpeg')",
         'Bg_Infantil_1':  "url('./src/img/Bg_Infantil_1.jpg')",

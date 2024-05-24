@@ -3,6 +3,8 @@ import Footer from "../../Components/Footer/Footer"
 import Header from "../../Components/Header/Header"
 import NavBar from "../../Components/NavBar/NavBar"
 import Paciente from "../../Components/Paciente/Paciente";
+import Calendario from "../../Components/Calendario/Calendario"
+
 
 
 
@@ -32,10 +34,16 @@ function Portal () {
                     <div className="p-10"> <Stepper /> </div>
 
                 </div>
+               
+                
+                <div className="p-10 bg-slate-400 m-3 border-4 rounded-md flex flex-col justify-between gap-16"> 
 
-                <div className="text-4xl md:text-6xl lg:text-8xl p-10 text-center"> 
-                        
-                    Aba do video    
+                    <div className="flex flex-col gap-3">
+                        <div className="text-indigo-800 text-4xl">Saiba Mais sobre sua Consulta</div>
+                        <div className="w-56 h-1 bg-teal-600 rounded-md"></div>
+                    </div>    
+                    
+                    <img id="img4" width="250" height="150" src="img-cha 20-11-23.png"></img>      
 
                 </div>
 

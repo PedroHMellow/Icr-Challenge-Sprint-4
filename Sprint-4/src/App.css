@@ -3,3 +3,27 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.fc-day-today {/*personalizar o dia atual*/
+  background-color: #1e1b54b3 !important;
+  color: #fff !important;
+}
+
+.fc .fc-daygrid-day-frame{/*personalizar cada dia calendário*/
+  height: 65px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.fc .fc-daygrid-day-frame:hover{/*deixar tdos os eventos visíveis*/
+  height: 65px;
+  overflow-y: visible;
+  overflow-x: visible;
+}
+
+.fc .fc-toolbar-title{/*personalizar o título do calendário*/
+  font-size: 12px;
+}
+
+.fc .fc-button {/*personalizar os botões superiores do calendário*/
+  font-size: 10px;
+}
