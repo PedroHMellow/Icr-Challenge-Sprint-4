@@ -25,7 +25,7 @@ function Portal () {
                 </div>
 
             </section>
-            <section style={{backgroundImage: "url('./src/img/Bg_Infantil_3.jpg')"}}>
+            <section style={{backgroundImage: "url('Bg_Infantil_3.jpg')"}}>
                 
                 <div className="p-5"> 
                     <p className="flex justify-center text-center text-indigo-800 text-xl lg:text-2xl"> 
