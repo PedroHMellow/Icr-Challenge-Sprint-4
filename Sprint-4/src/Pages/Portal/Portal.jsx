@@ -14,7 +14,7 @@ function Portal () {
 
             <section className="bg-[url('./src/img/Bg_Infantil_4.jpg')]">
 
-                <div className="text-8xl p-10 text-center ">Page Portal do Paciente</div>
+                <div className=" text-4xl md:text-6xl lg:text-8xl p-10 text-center ">Page Portal do Paciente</div>
                 
                 <div>
 
@@ -33,7 +33,7 @@ function Portal () {
 
                 </div>
 
-                <div className="text-8xl p-10"> 
+                <div className="text-4xl md:text-6xl lg:text-8xl p-10 text-center"> 
                         
                     Aba do video    
 
